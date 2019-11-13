@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TryHomeCare.xcodeproj">
+      location = "self:/Users/rahul/Downloads/TryHome/TryHome.xcodeproj">
    </FileRef>
 </Workspace>

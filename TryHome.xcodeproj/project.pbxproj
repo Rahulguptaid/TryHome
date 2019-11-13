@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FA3F4123702AB7006E0B8E /* TryHomeCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryHomeCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FA3F4123702AB7006E0B8E /* TryHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FA3F4423702AB7006E0B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02FA3F4623702AB7006E0B8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02FA3F4923702AB7006E0B8E /* TryHomeCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TryHomeCare.xcdatamodel; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		02FA3F5023702AB8006E0B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02FA3F5323702AB8006E0B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02FA3F5523702AB8006E0B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02FA3F5A23702AB8006E0B8E /* TryHomeCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHomeCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FA3F5A23702AB8006E0B8E /* TryHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FA3F5E23702AB8006E0B8E /* TryHomeCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryHomeCareTests.swift; sourceTree = "<group>"; };
 		02FA3F6023702AB8006E0B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02FA3F6523702AB8006E0B8E /* TryHomeCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHomeCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FA3F6523702AB8006E0B8E /* TryHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FA3F6923702AB8006E0B8E /* TryHomeCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryHomeCareUITests.swift; sourceTree = "<group>"; };
 		02FA3F6B23702AB8006E0B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		02FA3F4223702AB7006E0B8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02FA3F4123702AB7006E0B8E /* TryHomeCare.app */,
-				02FA3F5A23702AB8006E0B8E /* TryHomeCareTests.xctest */,
-				02FA3F6523702AB8006E0B8E /* TryHomeCareUITests.xctest */,
+				02FA3F4123702AB7006E0B8E /* TryHome.app */,
+				02FA3F5A23702AB8006E0B8E /* TryHomeTests.xctest */,
+				02FA3F6523702AB8006E0B8E /* TryHomeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02FA3F4023702AB7006E0B8E /* TryHomeCare */ = {
+		02FA3F4023702AB7006E0B8E /* TryHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02FA3F6E23702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCare" */;
+			buildConfigurationList = 02FA3F6E23702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHome" */;
 			buildPhases = (
 				02FA3F3D23702AB7006E0B8E /* Sources */,
 				02FA3F3E23702AB7006E0B8E /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = TryHomeCare;
+			name = TryHome;
 			productName = TryHomeCare;
-			productReference = 02FA3F4123702AB7006E0B8E /* TryHomeCare.app */;
+			productReference = 02FA3F4123702AB7006E0B8E /* TryHome.app */;
 			productType = "com.apple.product-type.application";
 		};
-		02FA3F5923702AB8006E0B8E /* TryHomeCareTests */ = {
+		02FA3F5923702AB8006E0B8E /* TryHomeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02FA3F7123702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCareTests" */;
+			buildConfigurationList = 02FA3F7123702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeTests" */;
 			buildPhases = (
 				02FA3F5623702AB8006E0B8E /* Sources */,
 				02FA3F5723702AB8006E0B8E /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				02FA3F5C23702AB8006E0B8E /* PBXTargetDependency */,
 			);
-			name = TryHomeCareTests;
+			name = TryHomeTests;
 			productName = TryHomeCareTests;
-			productReference = 02FA3F5A23702AB8006E0B8E /* TryHomeCareTests.xctest */;
+			productReference = 02FA3F5A23702AB8006E0B8E /* TryHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		02FA3F6423702AB8006E0B8E /* TryHomeCareUITests */ = {
+		02FA3F6423702AB8006E0B8E /* TryHomeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02FA3F7423702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCareUITests" */;
+			buildConfigurationList = 02FA3F7423702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeUITests" */;
 			buildPhases = (
 				02FA3F6123702AB8006E0B8E /* Sources */,
 				02FA3F6223702AB8006E0B8E /* Frameworks */,
@@ -190,9 +190,9 @@
 			dependencies = (
 				02FA3F6723702AB8006E0B8E /* PBXTargetDependency */,
 			);
-			name = TryHomeCareUITests;
+			name = TryHomeUITests;
 			productName = TryHomeCareUITests;
-			productReference = 02FA3F6523702AB8006E0B8E /* TryHomeCareUITests.xctest */;
+			productReference = 02FA3F6523702AB8006E0B8E /* TryHomeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 02FA3F3C23702AB7006E0B8E /* Build configuration list for PBXProject "TryHomeCare" */;
+			buildConfigurationList = 02FA3F3C23702AB7006E0B8E /* Build configuration list for PBXProject "TryHome" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02FA3F4023702AB7006E0B8E /* TryHomeCare */,
-				02FA3F5923702AB8006E0B8E /* TryHomeCareTests */,
-				02FA3F6423702AB8006E0B8E /* TryHomeCareUITests */,
+				02FA3F4023702AB7006E0B8E /* TryHome */,
+				02FA3F5923702AB8006E0B8E /* TryHomeTests */,
+				02FA3F6423702AB8006E0B8E /* TryHomeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		02FA3F5C23702AB8006E0B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 02FA3F4023702AB7006E0B8E /* TryHomeCare */;
+			target = 02FA3F4023702AB7006E0B8E /* TryHome */;
 			targetProxy = 02FA3F5B23702AB8006E0B8E /* PBXContainerItemProxy */;
 		};
 		02FA3F6723702AB8006E0B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 02FA3F4023702AB7006E0B8E /* TryHomeCare */;
+			target = 02FA3F4023702AB7006E0B8E /* TryHome */;
 			targetProxy = 02FA3F6623702AB8006E0B8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHomeCare.app/TryHomeCare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHome.app/TryHome";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHomeCare.app/TryHomeCare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHome.app/TryHome";
 			};
 			name = Release;
 		};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02FA3F3C23702AB7006E0B8E /* Build configuration list for PBXProject "TryHomeCare" */ = {
+		02FA3F3C23702AB7006E0B8E /* Build configuration list for PBXProject "TryHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02FA3F6C23702AB8006E0B8E /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02FA3F6E23702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCare" */ = {
+		02FA3F6E23702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02FA3F6F23702AB8006E0B8E /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02FA3F7123702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCareTests" */ = {
+		02FA3F7123702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02FA3F7223702AB8006E0B8E /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02FA3F7423702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeCareUITests" */ = {
+		02FA3F7423702AB8006E0B8E /* Build configuration list for PBXNativeTarget "TryHomeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02FA3F7523702AB8006E0B8E /* Debug */,
